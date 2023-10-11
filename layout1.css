@@ -1,0 +1,118 @@
+#head {
+    width: 1000px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    top: 0;
+    background-image: url(https://media.istockphoto.com/id/1128459508/vi/anh/n%E1%BB%81n-d%C3%A0i-v%C3%A0-r%E1%BB%99ng-%E1%BB%9F-v%E1%BB%8B-tr%C3%AD-n%E1%BA%B1m-ngang-k%E1%BA%BFt-c%E1%BA%A5u-gi%E1%BA%A5y-m%C3%A0u-x%C3%A1m-v%E1%BB%9Bi-b%C3%B3ng-t%E1%BB%91i-v%C3%A0-l%E1%BB%9Bp-v%E1%BB%8F-%C4%91%E1%BA%B9p-thanh-l%E1%BB%8Bch.jpg?s=1024x1024&w=is&k=20&c=2lTVNLwSsxtKIvzwB9RIjnEoJkNeIUr5_DVrUINnmeo=) ;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+#head::after{
+    content: attr(data-title) ;
+}
+#head-link {
+    text-align: center;
+    width: 1000px;
+    height: 30px;
+    background-color:white;
+    border: 1px solid black;
+    background-color: rgb(99, 98, 93);
+    /*word-spacing: 150px;*/
+    position: fixed;
+    margin-top: 95px;
+}
+#left {
+    width: 150px;
+    height: 650px;
+    background-color: white; 
+    float: left;
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-top: 130px;
+    position: fixed;
+
+}   
+#content {
+    width: 600px;
+    height: max-content;
+    background-color: white;
+    float: left;
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-top: 130px;
+    margin-left: 155px;
+    margin-bottom: 5px;
+   /* width: max-content;*/
+}
+#right {
+    width: 240px;
+    height: 650px;
+    background-color: white;
+    float: left;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    margin-top: 130px;
+    margin-left: 760px;
+    /*height: max-content;*/
+    overflow: scroll;
+    position: fixed;
+}
+#footer {
+    width: 600px;
+    height: 30px;
+    background-color: white;
+    clear: both;
+    border: 1px solid black;
+    margin: 155px; 
+    background-color: rgba(7, 248, 248, 0.509);  
+}
+#footer p{
+    color:darkgreen;
+    text-align: center;
+    line-height: 4px;
+}
+#main{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 1000px;  
+}
+#head-link a {
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#head-link a:hover{
+    color: aquamarine;
+}
+
+#head img{
+    width: 100px;
+    padding: 10px;
+    border-radius: 100px;    
+}
+#head P{
+    display: inline-block;
+    padding-left: 60px  ;
+    font-size: 30px;
+    position: absolute;
+    font-family: algerian;
+    color: rgb(255, 255, 255);
+    
+}
+#right iframe{
+    width: 236px;
+    height: 150PX;
+}
+#left p {
+    color: blue;
+    line-height: 70px;
+    text-align: center;
+}
+#left p:hover{
+    text-decoration: underline;
+}
